@@ -1,0 +1,17 @@
+title: 정보ON 블로그
+description: 정보 교사가 AI와 함께 학습 사이트를 만들며 배운 것들
+url: "https://blog.onlinej.kr"
+baseurl: ""
+lang: ko
+timezone: Asia/Seoul
+theme: minima
+permalink: /:year/:month/:day/:title/
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+header_pages:
+  - about.md
+exclude:
+  - README.md
